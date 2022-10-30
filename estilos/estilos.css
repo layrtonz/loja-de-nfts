@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'VT323', monospace;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.menu h3 a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px solid #000;
+
+}
+.infor p {
+    display: flex;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 80px;
+    font-family:  sans-serif; 
+    border-radius: 15px solid #000;
+
+}
+
+ul{
+    display: flex;
+    margin-right: 70px;
+    gap: 20px;
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sub-title {
+    display: flex;
+    font-size: 70px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.cont {
+    padding-right: 10%;
+    display: block;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+img  {
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+.cont2 {
+    padding-right: 10%;
+    display: block;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+h1 .infor-atualizado {
+    display: block;
+
+}
+
+.sub-infor{
+    display: block;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.sub-infor h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.list-infor {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.botoes button:hover{
+    opacity: 0.8;
+}
+.botoes button span{
+    color: #000;
+}
+
+.botoes button{
+    border: 0;
+    background-color: #f60069;
+    margin-left: 90px;
+    padding: 12px 180px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.botoes button .botao2{
+    padding: 150px;
+    letter-spacing: 1px;
+}
+
+.nfts-img01 {
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    gap: 30px;
+    image-rendering: pixelated;
+}
+
+.nfts-img01 img {
+    width: 144px;
+    height: 144px;
+    background-color: #638596;
+}
+
+.nfts-img02 {   
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    gap: 30px;
+    image-rendering: pixelated;
+}
+
+.nfts-img02 img {
+    width: 144px;
+    height: 144px;
+    background-color: #638596;
+}
+
+.nfts-img01 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nfts-img02 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nfts-recent{
+    padding-left: 95px;
+    padding-bottom: 10px;
+}
+
+.nfts-img03 {
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    gap: 30px;
+    image-rendering: pixelated;
+}
+
+.nfts-img03 img {
+    width: 144px;
+    height: 144px;
+    background-color: #638596;
+}
+
+.nfts-img03 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nfts-img04 {
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    gap: 30px;
+    image-rendering: pixelated;
+}
+
+.nfts-img04 img {
+    width: 144px;
+    height: 144px;
+    background-color: #638596;
+}
+
+.nfts-img04 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.for-sale{
+    padding-left: 95px;
+    padding-bottom: 10px;
+}
+
+.for-sale a{
+    color: #f60069;
+    text-decoration: none;
+    font-size: 20px;
+}
+.for-sale a:hover{
+    opacity: 0.8;
+}
+
+.for-sale img {
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.for-sale p{
+    font-size: 20px;
+}
+
+.bids{
+    padding-left: 95px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.bids{
+    font-size: 20px;
+}
+
+.bids a{
+    color: #f60069;
+    text-decoration: none;
+    font-size: 20px;
+}
+.bids a:hover{
+    opacity: 0.8;
+}
+
+.bids img {
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.sales{
+    padding-left: 95px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.sales{
+    font-size: 20px;
+}
+.sales a{
+    color: #f60069;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sales a:hover{
+    opacity: 0.8;
+}
+
+.sales img {
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.wrraped{
+    padding-left: 95px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.wrraped{
+    font-size: 20px;
+}
+.wrraped a{
+    color: #f60069;
+    text-decoration: none;
+    font-size: 20px;
+}
+.wrraped a:hover{
+    opacity: 0.8;
+}
+
+.wrraped img {
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.final-texts{
+    padding-left: 95px;
+    padding-bottom: 10px;
+    margin-right: 90px;
+}
+
+
