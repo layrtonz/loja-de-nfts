@@ -27,8 +27,13 @@
      and gives commercial rights to the
       community.<br> The Cryptopunks 
       web app will soon be moving to 
-      cryptopunks.app. </p> </div>
+     <a href="#"> cryptopunks.app.<b>Learn more</b> </a> </p> </div>
     <div>
+        <div class="blockchain">
+            <button class="blockbutton">
+               <b> BLOCKCHAIN </b>
+            </button>
+        </div>
         <h1 class="sub-title"> CryptoPunks </h1>
         <p class="cont"> 10,000 unique collectible characters
             with proof of ownership stored 
@@ -36,14 +41,14 @@
             The project that inspired 
             the modern CryptoArt movement. 
             Selected press and appearances 
-            include Mashable, CNBC, 
+            include <span style="color: #ff04b4"> Mashable, CNBC, 
             The Financial Times, Bloomberg, 
             MarketWatch, The Paris Review, 
             Salon, The Outline, BreakerMag,
             Christie's of London, Art|Basel,
             The PBS NewsHour, 
-            The New York Times in 2018 and 
-            again in 2021. The Cryptopunks
+            The New York Times in 2018 </span> and 
+            <span style="color: #ff04b4"> again in 2021. </span> The Cryptopunks
             are one of the earliest examples
             of a "Non-Fungible Token"
             on Ethereum, and were inspiration
@@ -284,6 +289,91 @@
         Zombies and even the odd Alien. Every punk has their 
         own profile page that shows their attributes as well as their 
         ownership/for-sale status (<a href="#">here's</a> an example).</p>
+        <h1> What exactly is going on here? </h1>
+        <p> Cryptocurrency was made famous by Bitcoin, 
+            but Bitcoin is designed just to transact and 
+            store ownership of Bitcoin itself. We are using a 
+            successor to Bitcoin called Ethereum which allows 
+            for arbitrary computer code to be executed on the 
+            blockchain and the results of the execution to be 
+            stored forever. This is pretty cool! Normally code 
+            is run on a server somewhere and you basically need 
+            to trust the person running the server. Ethereum 
+            lets everyone execute the code, show each other 
+            what result they got, and agree that the code was 
+            executed properly and fairly.
+            We have written code that lives on the blockchain 
+            that anyone can use to buy and sell Punks with anyone 
+            else in the world. An interesting aspect of this 
+            system is that we no longer have any control over 
+            the code running CryptoPunks! Once we released it 
+            onto the blockchain it became permanently embedded 
+            there and can no longer be modified by anyone. 
+            This is scary for us as developers because we worry 
+            about bugs, but it is also a very powerful feature 
+            of the system. It allows a user verify that there 
+            are indeed only 10,000 punks, check that we can't 
+            steal them from you, and basically make sure that 
+            everything we told you about the code is true.</p>
+
+            <h1> How do I get a Punk? </h1>
+            <p> 1. Download and install a Chrome browser plugin
+                 called MetaMask. This will allow websites 
+                 (that you authorize) access to your Ethereum account.</p>
+            <p> 2. If you made a new account, buy some Ether. The 
+                MetaMask plugin has a button that will allow you to buy 
+                Ether from Coinbase.</p>
+            <p> 3. Once you have the plugin installed, this website 
+                will recognize it and add buttons that allow you 
+                to bid on, buy and sell punks directly in the interface.</p>
+            <p> 4. For example, you can buy Punk <a href="#">#8656</a> for 
+                66.79 ETH ($105,596.33 USD).</p>
+            <h1> Details and FAQ </h1>
+            <p> <b> Where are the images for the punks stored? </b></p>
+            <p> When originally released, the actual images of the punks 
+                were too large to store on the blockchain, so we took a 
+                hash of the composite image of all the punks and embeded 
+                it into the contract. You can verify that the punks 
+                being managed by the Ethereum contract are the True 
+                Official Genuine CryptoPunks™ by calculating an SHA256 
+                hash on the cryptopunks image and comparing it to the 
+                hash stored in the contract.
+                Since then, due to some clever compression ideas and  
+                some help from friends of the punks we have managed to 
+                put the entire image and attribute data fully on chain. 
+                You can read more about the mechanisms and details of 
+                the process in the announcement blog post.</p>
+            
+            <p> <b> Are the punks an ERC-721 token? </b></p>
+            <p> No. The CryptoPunks pre-date the ERC-721 standard
+                and are a custom contract, that means it doesn't 
+                comply with any standards. They are almost an ERC20 
+                token. We support the methods that provide your 
+                balance so you can watch CryptoPunks as a token 
+                in your wallet and see how many you own. None of 
+                the other methods are the same since you're not 
+                transferring a simple balance, but need to reference 
+                which specific Punk you want to work with.
+            </p>
+            <p> <b> Where does the market data on this site come from? </b></p>
+            <p> The prices, bids and sales you see on this site are loaded 
+                from the Cryptopunks contract on the Ethereum blockchain. 
+                Because the Cryptopunks pre-date the ERC-721 standard 
+                (and all third party NFT marketplaces) we also needed 
+                to write a market so the punks could be transacted. 
+                We have no control over the contract governing this market, 
+                and have no access to any additional data beyond what the 
+                blockchain provides. In fact anyone else could write a web 
+                front end for it.</p>
+
+            <p> <b> Do you charge any fees for transactions? </b></p>
+            <p> No. We charge no fees for Cryptopunks transacted through 
+                the built-in market beyond the ones charged by Ethereum (gas).
+                The contract source and more technical details are available on Github.</p>
+            <div>
+                <h1> Search Punks </h1>
+                <input type="search" class="form-control" name="query" id="search" placeholder="Try things like 'zombie' or 'zombie and beard'">
+            </div>
     </div>
 </main>
 </body>

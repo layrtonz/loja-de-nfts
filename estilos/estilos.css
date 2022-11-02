@@ -9,30 +9,59 @@ body {
     
 }
 
-
 .menu{
     display: flex;
     justify-content: space-between;
     padding: 60px;
     margin-left: 60px;
-    font-size: 20px;
 }
+
+.blockchain button{
+    color: #fff;
+    background-color: #f60069;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.blockchain button:hover{
+    opacity: 0.5;
+}
+
 
 .menu h3 a{
     list-style: none;
     text-decoration: none;
     color: black;
     border-radius: 15px solid #000;
+    font-size: 35px;
+
 
 }
-.infor p {
-    display: flex;
+.infor {
+    display: block;
     margin-left: 100px;
     font-size: 20px;
-    margin-top: 80px;
+    margin-top: 10px;
     font-family:  sans-serif; 
-    border-radius: 15px solid #000;
+    border: 2px solid #9acfea;
+    background-color: #d9edf7;
+    height: 90px;
+    width: 80%;
+}
 
+.infor p {
+    margin-top: 16px;    
+    margin-left: 8px;
+}
+
+.infor a {
+    text-decoration: none;
+    color: #638596;
 }
 
 ul{
@@ -52,7 +81,7 @@ li a{
     display: flex;
     font-size: 70px;
     margin-left: 90px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .cont {
@@ -61,7 +90,7 @@ li a{
     font-size: 25px;
     margin-left: 90px;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 img  {
@@ -306,6 +335,28 @@ h1 .infor-atualizado {
     padding-left: 95px;
     padding-bottom: 10px;
     margin-right: 90px;
+    margin-top: 20px;
 }
+
+.final-texts h1 {
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.final-texts p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.final-texts a{
+    text-decoration: none;
+    color: #f60069;
+}
+
+.btn-default button{
+    display: flex; 
+    margin-left: 90%;
+}
+
 
 
