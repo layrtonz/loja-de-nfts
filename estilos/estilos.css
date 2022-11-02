@@ -52,6 +52,7 @@ body {
     background-color: #d9edf7;
     height: 90px;
     width: 80%;
+    border-radius: 6px;
 }
 
 .infor p {
